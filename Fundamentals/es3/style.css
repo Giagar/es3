@@ -12,18 +12,16 @@
 header {
     background: hsl(0, 0%, 93%);
     border-bottom: 2px solid var(--colorTitle);
+    text-align: center;
 }
 
 header img {
-    margin: 0 auto;
     width: 150px;
     height: 150px;
-    display: block;
 }
 
 header h1 {
     font-size: 1.4rem;
-    text-align: center;
     margin: 20px auto;
 }
 
@@ -35,7 +33,7 @@ header, h2, h3, p {
     margin-bottom: 20px;
 }
 
-h2 {
+.section-title {
     color: var(--colorTitle);
     font-size: 1.2rem;
 }
